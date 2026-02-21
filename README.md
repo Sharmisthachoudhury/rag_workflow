@@ -76,7 +76,7 @@ python rag.py --delete-dataset <datasetname>
 Example:
 
 ```bash
-python rag.py --delete-dataset finance_docs
+python rag.py --delete-dataset dataset1
 ```
 
 ## 4) Supported Files
@@ -105,4 +105,3 @@ datasets/<datasetname>/dataset_meta.json
 - Dataset creation fails if the dataset name already exists.
 - If no usable TXT/PDF content is found, dataset creation is aborted.
 - Retrieval answers are generated from top similar chunks in ChromaDB.
-- If you see CLI help text mentioning `assignment3.py`, use `rag.py` in commands for this repository.
